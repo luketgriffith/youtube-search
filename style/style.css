@@ -1,0 +1,10 @@
+body{
+  padding: 20px;
+}
+.form-main{
+  padding: 15px;
+}
+
+.video-list{
+  cursor: pointer;
+}

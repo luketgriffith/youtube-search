@@ -8,9 +8,11 @@ class SearchBar extends Component {
   }
   render() {
     return (
-    <div>  
+    <div className="form-main">  
 
       <input 
+      className="form-group"
+      placeholder="Search Videos"
       value = {this.state.term}
       onChange={(event) => this.onInputChange(event.target.value)} />
     </div>
